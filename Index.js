@@ -9,7 +9,7 @@ import { handleValidationErrors, checkAuth } from './utils/index.js';
 import { UserController, ThreadController } from './controllers/index.js';
 
 mongoose
-  .connect('mongodb+srv://aleksword:2wsxcde3@mydb.hha1ub0.mongodb.net/?retryWrites=true&w=majority')
+  .connect('mongodb+srv://адресс БД в монго')
   .then(() => console.log('DB ok'))
   .catch((err) => console.log('DB error', err));
 
